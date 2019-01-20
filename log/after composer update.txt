@@ -1,0 +1,52 @@
+Microsoft Windows [Version 10.0.17134.472]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Satnam>cd D:\xampp7\htdocs\larafyom1
+
+C:\Users\Satnam>d:
+
+D:\xampp7\htdocs\larafyom1>composer update
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 14 installs, 0 updates, 0 removals
+  - Installing laracasts/flash (3.0.2): Loading from cache
+  - Installing prettus/laravel-validation (1.1.5): Loading from cache
+  - Installing prettus/l5-repository (2.6.32): Loading from cache
+  - Installing infyomlabs/laravel-generator (5.7.x-dev c1941c8): Downloading (100%)
+  - Installing infyomlabs/adminlte-templates (5.7.x-dev b05d9fb): Downloading (100%)
+  - Installing infyomlabs/swagger-generator (dev-master 06eaf59): Downloading (100%)
+  - Installing doctrine/annotations (v1.6.0): Loading from cache
+  - Installing zircote/swagger-php (2.0.13): Downloading (100%)
+  - Installing swagger-api/swagger-ui (v3.20.4): Downloading (100%)
+  - Installing appointer/swaggervel (dev-master baf079f): Downloading (100%)
+  - Installing laravelcollective/html (v5.7.1): Loading from cache
+  - Installing doctrine/event-manager (v1.0.0): Loading from cache
+  - Installing doctrine/cache (v1.8.0): Loading from cache
+  - Installing doctrine/dbal (v2.9.2): Loading from cache
+prettus/l5-repository suggests installing league/fractal (Required to use the Fractal Presenter (0.12.*).)
+prettus/l5-repository suggests installing robclancy/presenter (Required to use the Presenter Model (1.3.*))
+doctrine/cache suggests installing alcaeus/mongo-php-adapter (Required to use legacy MongoDB driver)
+Writing lock file
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+Discovered Package: appointer/swaggervel
+Discovered Package: beyondcode/laravel-dump-server
+Discovered Package: fideloper/proxy
+Discovered Package: infyomlabs/adminlte-templates
+Discovered Package: infyomlabs/laravel-generator
+Discovered Package: laracasts/flash
+Discovered Package: laravel/nexmo-notification-channel
+Discovered Package: laravel/slack-notification-channel
+Discovered Package: laravel/tinker
+Discovered Package: laravelcollective/html
+Discovered Package: nesbot/carbon
+Discovered Package: nunomaduro/collision
+Discovered Package: prettus/l5-repository
+Package manifest generated successfully.
+
+D:\xampp7\htdocs\larafyom1>
+
+
+
+need to check alcaeus/mongo-php-adapter also for mongo

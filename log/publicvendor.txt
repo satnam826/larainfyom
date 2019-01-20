@@ -1,0 +1,5 @@
+D:\xampp7\htdocs\larafyom1>php artisan infyom:publish
+ApiTestTrait.php published
+D:\xampp7\htdocs\larafyom1\tests/ApiTestTrait.php
+traits directory created
+AppBaseController created
