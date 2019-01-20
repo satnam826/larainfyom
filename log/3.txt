@@ -1,0 +1,38 @@
+D:\xampp7\htdocs\larafyom1>php artisan vendor:publish
+
+ Which provider or tag's files would you like to publish?:
+  [0 ] Publish files from all providers and tags listed below
+  [1 ] Provider: Appointer\Swaggervel\SwaggervelServiceProvider
+  [2 ] Provider: BeyondCode\DumpServer\DumpServerServiceProvider
+  [3 ] Provider: Fideloper\Proxy\TrustedProxyServiceProvider
+  [4 ] Provider: Illuminate\Foundation\Providers\FoundationServiceProvider
+  [5 ] Provider: Illuminate\Mail\MailServiceProvider
+  [6 ] Provider: Illuminate\Notifications\NotificationServiceProvider
+  [7 ] Provider: Illuminate\Pagination\PaginationServiceProvider
+  [8 ] Provider: InfyOm\Generator\InfyOmGeneratorServiceProvider
+  [9 ] Provider: Laracasts\Flash\FlashServiceProvider
+  [10] Provider: Laravel\Tinker\TinkerServiceProvider
+  [11] Provider: Prettus\Repository\Providers\RepositoryServiceProvider
+  [12] Tag: config
+  [13] Tag: laravel-errors
+  [14] Tag: laravel-mail
+  [15] Tag: laravel-notifications
+  [16] Tag: laravel-pagination
+  [17] Tag: public
+  [18] Tag: views
+ > 0
+
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\views] To [\resources\views\errors]
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Notifications\resources\views] To [\resources\views\vendor\notifications]
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Pagination\resources\views] To [\resources\views\vendor\pagination]
+Copied File [\vendor\appointer\swaggervel\src\config\swaggervel.php] To [\config\swaggervel.php]
+Copied Directory [\vendor\swagger-api\swagger-ui\dist] To [\public\vendor\swaggervel]
+Copied Directory [\vendor\appointer\swaggervel\src\views] To [\resources\views\vendor\swaggervel]
+Copied File [\vendor\beyondcode\laravel-dump-server\config\config.php] To [\config\debug-server.php]
+Copied File [\vendor\fideloper\proxy\config\trustedproxy.php] To [\config\trustedproxy.php]
+Copied File [\vendor\infyomlabs\laravel-generator\config\laravel_generator.php] To [\config\infyom\laravel_generator.php]
+Copied Directory [\vendor\laracasts\flash\src\views] To [\resources\views\vendor\flash]
+Copied File [\vendor\prettus\l5-repository\src\resources\config\repository.php] To [\config\repository.php]
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Mail\resources\views] To [\resources\views\vendor\mail]
+Copied File [\vendor\laravel\tinker\config\tinker.php] To [\config\tinker.php]
+Publishing complete.
