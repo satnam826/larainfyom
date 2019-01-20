@@ -1,0 +1,30 @@
+D:\xampp7\htdocs\larafyom1>php artisan infyom.publish:layout
+layouts/app.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/layouts/app.blade.php
+layouts/sidebar.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/layouts/sidebar.blade.php
+layouts/datatables_css.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/layouts/datatables_css.blade.php
+layouts/datatables_js.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/layouts/datatables_js.blade.php
+layouts/menu.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/layouts/menu.blade.php
+home.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/home.blade.php
+auth/login.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/auth/login.blade.php
+auth/register.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/auth/register.blade.php
+auth/passwords/email.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/auth/passwords/email.blade.php
+auth/passwords/reset.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/auth/passwords/reset.blade.php
+auth/emails/password.blade.php published
+D:\xampp7\htdocs\larafyom1\resources/views/auth/emails/password.blade.php
+
+ Existing routes web.php file detected. Should we add standard auth routes? (y|N) : (yes/no) [no]:
+ > yes
+
+
+Routes added
+HomeController created
