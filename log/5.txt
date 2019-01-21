@@ -1,0 +1,187 @@
+D:\xampp7\htdocs\larafyom1>php artisan migrate
+Migration table created successfully.
+Migrating: 2013_01_17_192514_create_roles_table
+Migrated:  2013_01_17_192514_create_roles_table
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2019_01_18_131947_update_users_table
+Migrated:  2019_01_18_131947_update_users_table
+Migrating: 2019_01_18_135055_create_posts_table
+Migrated:  2019_01_18_135055_create_posts_table
+Migrating: 2019_01_18_135121_create_comments_table
+Migrated:  2019_01_18_135121_create_comments_table
+Migrating: 2019_01_18_135147_update_comments_table
+Migrated:  2019_01_18_135147_update_comments_table
+Migrating: 2019_01_18_135305_create_post_authors
+Migrated:  2019_01_18_135305_create_post_authors
+Migrating: 2019_01_18_135359_update_post_authors
+Migrated:  2019_01_18_135359_update_post_authors
+
+D:\xampp7\htdocs\larafyom1>php artisan infyom:scaffold Role --fromTable --tableName=roles
+
+Model created:
+Role.php
+
+Repository created:
+RoleRepository.php
+
+Create Request created:
+CreateRoleRequest.php
+
+Update Request created:
+UpdateRoleRequest.php
+
+Controller created:
+RoleController.php
+
+Generating Views...
+table.blade.php created
+index.blade.php created
+field.blade.php created
+create.blade.php created
+edit.blade.php created
+show_fields.blade.php created
+show.blade.php created
+Views created:
+
+roles routes added.
+
+roles menu added.
+Generating autoload files
+
+D:\xampp7\htdocs\larafyom1>php artisan infyom:scaffold Post --fromTable --tableName=posts
+
+Model created:
+Post.php
+
+Repository created:
+PostRepository.php
+
+Create Request created:
+CreatePostRequest.php
+
+Update Request created:
+UpdatePostRequest.php
+
+Controller created:
+PostController.php
+
+Generating Views...
+table.blade.php created
+index.blade.php created
+field.blade.php created
+create.blade.php created
+edit.blade.php created
+show_fields.blade.php created
+show.blade.php created
+Views created:
+
+posts routes added.
+
+posts menu added.
+Generating autoload files
+
+D:\xampp7\htdocs\larafyom1>
+D:\xampp7\htdocs\larafyom1>php artisan infyom:scaffold User --fromTable --tableName=users
+
+Model created:
+User.php
+
+Repository created:
+UserRepository.php
+
+Create Request created:
+CreateUserRequest.php
+
+Update Request created:
+UpdateUserRequest.php
+
+Controller created:
+UserController.php
+
+Generating Views...
+table.blade.php created
+index.blade.php created
+field.blade.php created
+create.blade.php created
+edit.blade.php created
+show_fields.blade.php created
+show.blade.php created
+Views created:
+
+users routes added.
+
+users menu added.
+Generating autoload files
+
+D:\xampp7\htdocs\larafyom1>
+D:\xampp7\htdocs\larafyom1>
+D:\xampp7\htdocs\larafyom1>php artisan infyom:scaffold Comment --fromTable --tableName=comments
+
+Model created:
+Comment.php
+
+Repository created:
+CommentRepository.php
+
+Create Request created:
+CreateCommentRequest.php
+
+Update Request created:
+UpdateCommentRequest.php
+
+Controller created:
+CommentController.php
+
+Generating Views...
+table.blade.php created
+index.blade.php created
+field.blade.php created
+create.blade.php created
+edit.blade.php created
+show_fields.blade.php created
+show.blade.php created
+Views created:
+
+comments routes added.
+
+comments menu added.
+Generating autoload files
+
+D:\xampp7\htdocs\larafyom1>
+D:\xampp7\htdocs\larafyom1>
+D:\xampp7\htdocs\larafyom1>php artisan infyom:scaffold PostAuthor --fromTable --tableName=post_authors
+
+Model created:
+PostAuthor.php
+
+Repository created:
+PostAuthorRepository.php
+
+Create Request created:
+CreatePostAuthorRequest.php
+
+Update Request created:
+UpdatePostAuthorRequest.php
+
+Controller created:
+PostAuthorController.php
+
+Generating Views...
+table.blade.php created
+index.blade.php created
+field.blade.php created
+create.blade.php created
+edit.blade.php created
+show_fields.blade.php created
+show.blade.php created
+Views created:
+
+postAuthors routes added.
+
+postAuthors menu added.
+Generating autoload files
+
+D:\xampp7\htdocs\larafyom1>

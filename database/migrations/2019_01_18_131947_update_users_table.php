@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
+
 class UpdateUsersTable extends Migration
 {
     /**
@@ -13,7 +14,7 @@ class UpdateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table('users',function(Blueprint $table){
+        Schema::table('users', function (Blueprint $table) {
             $table->unsignedInteger('role_id')->default(3);
             $table->foreign('role_id')->references('id')->on('roles');
         });
@@ -26,8 +27,8 @@ class UpdateUsersTable extends Migration
      */
     public function down()
     {
-        Scheme::table('users',function(Blueprint $table){
-            $table->dropForeign('users_role_id_foreign');        
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropForeign('users_role_id_foreign');
         });
     }
 }

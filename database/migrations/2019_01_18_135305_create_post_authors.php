@@ -27,8 +27,6 @@ class CreatePostAuthors extends Migration
      */
     public function down()
     {
-        Schema::table('post_authors', function (Blueprint $table) {
-            //
-        });
+        Schema::dropIfExists('post_authors');
     }
 }
