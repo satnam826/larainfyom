@@ -1266,6 +1266,55 @@
         ]
     },
     {
+        "name": "infyomlabs/generator-builder",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/InfyOmLabs/generator-builder.git",
+            "reference": "acd07ef38668920fef1fda1d6d1d62dadbef4efb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/InfyOmLabs/generator-builder/zipball/acd07ef38668920fef1fda1d6d1d62dadbef4efb",
+            "reference": "acd07ef38668920fef1fda1d6d1d62dadbef4efb",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "~5.0",
+            "php": ">=5.5.9"
+        },
+        "time": "2017-10-12T02:36:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "InfyOm\\GeneratorBuilder\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mitul Golakiya",
+                "email": "me@mitul.me"
+            }
+        ],
+        "description": "InfyOm Laravel Generator GUI Builder",
+        "keywords": [
+            "api",
+            "builder",
+            "crud",
+            "generator",
+            "gui",
+            "interface",
+            "laravel",
+            "view"
+        ]
+    },
+    {
         "name": "infyomlabs/laravel-generator",
         "version": "5.7.x-dev",
         "version_normalized": "5.7.9999999.9999999-dev",

@@ -18,3 +18,7 @@
     <a href="{!! route('postAuthors.index') !!}"><i class="fa fa-edit"></i><span>Post Authors</span></a>
 </li>
 
+<li class="{{ Request::is('blogs*') ? 'active' : '' }}">
+    <a href="{!! route('blogs.index') !!}"><i class="fa fa-edit"></i><span>Blogs</span></a>
+</li>
+

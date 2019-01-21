@@ -120,6 +120,7 @@ class ComposerStaticInit6969912c17a06bc7dbe5f5d9629f834d
         'I' => 
         array (
             'InfyOm\\Generator\\' => 17,
+            'InfyOm\\GeneratorBuilder\\' => 24,
             'InfyOm\\AdminLTETemplates\\' => 25,
             'Illuminate\\Notifications\\' => 25,
             'Illuminate\\' => 11,
@@ -342,6 +343,10 @@ class ComposerStaticInit6969912c17a06bc7dbe5f5d9629f834d
         array (
             0 => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src',
         ),
+        'InfyOm\\GeneratorBuilder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/infyomlabs/generator-builder/src',
+        ),
         'InfyOm\\AdminLTETemplates\\' => 
         array (
             0 => __DIR__ . '/..' . '/infyomlabs/adminlte-templates/src',
@@ -496,6 +501,7 @@ class ComposerStaticInit6969912c17a06bc7dbe5f5d9629f834d
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+        'App\\Http\\Controllers\\BlogController' => __DIR__ . '/../..' . '/app/Http/Controllers/BlogController.php',
         'App\\Http\\Controllers\\CommentController' => __DIR__ . '/../..' . '/app/Http/Controllers/CommentController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
@@ -511,16 +517,19 @@ class ComposerStaticInit6969912c17a06bc7dbe5f5d9629f834d
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\CreateBlogRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CreateBlogRequest.php',
         'App\\Http\\Requests\\CreateCommentRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CreateCommentRequest.php',
         'App\\Http\\Requests\\CreatePostAuthorRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CreatePostAuthorRequest.php',
         'App\\Http\\Requests\\CreatePostRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CreatePostRequest.php',
         'App\\Http\\Requests\\CreateRoleRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CreateRoleRequest.php',
         'App\\Http\\Requests\\CreateUserRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CreateUserRequest.php',
+        'App\\Http\\Requests\\UpdateBlogRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdateBlogRequest.php',
         'App\\Http\\Requests\\UpdateCommentRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdateCommentRequest.php',
         'App\\Http\\Requests\\UpdatePostAuthorRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdatePostAuthorRequest.php',
         'App\\Http\\Requests\\UpdatePostRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdatePostRequest.php',
         'App\\Http\\Requests\\UpdateRoleRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdateRoleRequest.php',
         'App\\Http\\Requests\\UpdateUserRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdateUserRequest.php',
+        'App\\Models\\Blog' => __DIR__ . '/../..' . '/app/Models/Blog.php',
         'App\\Models\\Comment' => __DIR__ . '/../..' . '/app/Models/Comment.php',
         'App\\Models\\Post' => __DIR__ . '/../..' . '/app/Models/Post.php',
         'App\\Models\\PostAuthor' => __DIR__ . '/../..' . '/app/Models/PostAuthor.php',
@@ -531,6 +540,7 @@ class ComposerStaticInit6969912c17a06bc7dbe5f5d9629f834d
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Repositories\\BlogRepository' => __DIR__ . '/../..' . '/app/Repositories/BlogRepository.php',
         'App\\Repositories\\CommentRepository' => __DIR__ . '/../..' . '/app/Repositories/CommentRepository.php',
         'App\\Repositories\\PostAuthorRepository' => __DIR__ . '/../..' . '/app/Repositories/PostAuthorRepository.php',
         'App\\Repositories\\PostRepository' => __DIR__ . '/../..' . '/app/Repositories/PostRepository.php',
@@ -2376,6 +2386,10 @@ class ComposerStaticInit6969912c17a06bc7dbe5f5d9629f834d
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
         'InfyOm\\AdminLTETemplates\\AdminLTETemplatesServiceProvider' => __DIR__ . '/..' . '/infyomlabs/adminlte-templates/src/AdminLTETemplatesServiceProvider.php',
+        'InfyOm\\GeneratorBuilder\\Commands\\GeneratorBuilderRoutesPublisherCommand' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/Commands/GeneratorBuilderRoutesPublisherCommand.php',
+        'InfyOm\\GeneratorBuilder\\Controllers\\GeneratorBuilderController' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/Controllers/GeneratorBuilderController.php',
+        'InfyOm\\GeneratorBuilder\\GeneratorBuilderServiceProvider' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/GeneratorBuilderServiceProvider.php',
+        'InfyOm\\GeneratorBuilder\\Requests\\BuilderGenerateRequest' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/Requests/BuilderGenerateRequest.php',
         'InfyOm\\Generator\\Commands\\APIScaffoldGeneratorCommand' => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src/Commands/APIScaffoldGeneratorCommand.php',
         'InfyOm\\Generator\\Commands\\API\\APIControllerGeneratorCommand' => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src/Commands/API/APIControllerGeneratorCommand.php',
         'InfyOm\\Generator\\Commands\\API\\APIGeneratorCommand' => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src/Commands/API/APIGeneratorCommand.php',

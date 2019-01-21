@@ -1,0 +1,64 @@
+D:\xampp7\htdocs\larafyom1>composer update
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing infyomlabs/generator-builder (dev-master acd07ef): Downloading (100%)
+Writing lock file
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+Discovered Package: appointer/swaggervel
+Discovered Package: beyondcode/laravel-dump-server
+Discovered Package: fideloper/proxy
+Discovered Package: infyomlabs/adminlte-templates
+Discovered Package: infyomlabs/laravel-generator
+Discovered Package: laracasts/flash
+Discovered Package: laravel/nexmo-notification-channel
+Discovered Package: laravel/slack-notification-channel
+Discovered Package: laravel/tinker
+Discovered Package: laravelcollective/html
+Discovered Package: nesbot/carbon
+Discovered Package: nunomaduro/collision
+Discovered Package: prettus/l5-repository
+Package manifest generated successfully.
+
+D:\xampp7\htdocs\larafyom1>php artisan vendor:publish
+
+ Which provider or tag's files would you like to publish?:
+  [0 ] Publish files from all providers and tags listed below
+  [1 ] Provider: Appointer\Swaggervel\SwaggervelServiceProvider
+  [2 ] Provider: BeyondCode\DumpServer\DumpServerServiceProvider
+  [3 ] Provider: Fideloper\Proxy\TrustedProxyServiceProvider
+  [4 ] Provider: Illuminate\Foundation\Providers\FoundationServiceProvider
+  [5 ] Provider: Illuminate\Mail\MailServiceProvider
+  [6 ] Provider: Illuminate\Notifications\NotificationServiceProvider
+  [7 ] Provider: Illuminate\Pagination\PaginationServiceProvider
+  [8 ] Provider: InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider
+  [9 ] Provider: InfyOm\Generator\InfyOmGeneratorServiceProvider
+  [10] Provider: Laracasts\Flash\FlashServiceProvider
+  [11] Provider: Laravel\Tinker\TinkerServiceProvider
+  [12] Provider: Prettus\Repository\Providers\RepositoryServiceProvider
+  [13] Tag: config
+  [14] Tag: laravel-errors
+  [15] Tag: laravel-mail
+  [16] Tag: laravel-notifications
+  [17] Tag: laravel-pagination
+  [18] Tag: public
+  [19] Tag: views
+ > 0
+
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\views] To [\resources\views\errors]
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Notifications\resources\views] To [\resources\views\vendor\notifications]
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Pagination\resources\views] To [\resources\views\vendor\pagination]
+Copied Directory [\vendor\swagger-api\swagger-ui\dist] To [\public\vendor\swaggervel]
+Copied Directory [\vendor\appointer\swaggervel\src\views] To [\resources\views\vendor\swaggervel]
+Copied Directory [\vendor\laracasts\flash\src\views] To [\resources\views\vendor\flash]
+Copied File [\vendor\infyomlabs\generator-builder\config\generator_builder.php] To [\config\infyom\generator_builder.php]
+Copied Directory [\vendor\laravel\framework\src\Illuminate\Mail\resources\views] To [\resources\views\vendor\mail]
+Publishing complete.
+
+D:\xampp7\htdocs\larafyom1>php artisan infyom.publish:generator-builder
+
+Builder routes added to routes.php
+
+D:\xampp7\htdocs\larafyom1>
